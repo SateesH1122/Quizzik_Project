@@ -22,7 +22,6 @@ namespace Quizzik_Project.Controllers
         private readonly IMapper _mapper;
         private readonly EFCoreDbContext _context;
         private readonly IConfiguration _configuration;
-        //changes
 
         public UsersController(IMapper mapper, EFCoreDbContext context, IConfiguration configuration)
         {
